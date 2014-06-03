@@ -1,0 +1,26 @@
+[ 2014-04-24T09:54:11+08:00 ] 127.0.0.1 /thinkphp312/file/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `think_photo` [ RunTime:0.020923s ]
+ERR: Table 'examples.think_photo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_photo`
+SQL: SELECT * FROM `think_photo` ORDER BY create_time desc LIMIT 1   [ RunTime:0.000272s ]
+ERR: Table 'examples.think_photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_photo` ORDER BY create_time desc LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001110s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001200s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008948s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000694s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000675s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000520s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002872s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000887s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000972s ]
+

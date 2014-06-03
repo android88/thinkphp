@@ -1,0 +1,42 @@
+[ 2014-04-24T09:55:41+08:00 ] 127.0.0.1 /thinkphp312/relation/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.119187s ]
+ERR: Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_member`
+SQL: INSERT INTO `think_member` (`name`,`dept_id`) VALUES ('thinkphp',1) [ RunTime:0.014042s ]
+ERR: Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_member` (`name`,`dept_id`) VALUES ('thinkphp',1)
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.000236s ]
+ERR: Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_member` LIMIT 1  
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.000231s ]
+ERR: Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_member` LIMIT 1  
+SQL: SELECT * FROM `think_member` ORDER BY id desc LIMIT 2   [ RunTime:0.000235s ]
+ERR: Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_member` ORDER BY id desc LIMIT 2  
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\thinkphp312\relation\Lib\Action\IndexAction.class.php 第 41 行.
+SQL: UPDATE `think_member` SET `id`=0,`name`='tp',`dept_id`=2 WHERE ( `id` = 0 ) [ RunTime:0.030637s ]
+ERR: Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : UPDATE `think_member` SET `id`=0,`name`='tp',`dept_id`=2 WHERE ( `id` = 0 )
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.000256s ]
+ERR: Table 'examples.think_member' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_member` LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000900s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012583s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000495s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000531s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000346s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002167s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000631s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000714s ]
+

@@ -1,0 +1,69 @@
+[ 2013-03-29T17:56:03+08:00 ] 127.0.0.1 /thinkphp312/page/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.339646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.339902s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:1.180016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_form` LIMIT 1   [ RunTime:0.023842s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 0,5   [ RunTime:0.016727s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.041626s ]
+INFO: [ view_template ] --END-- [ RunTime:0.041854s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.518855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.519076s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.013761s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.031782s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.019576s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.029895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.095632s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.016547s ]
+INFO: [ view_end ] --END-- [ RunTime:0.016707s ]
+
+[ 2013-03-29T17:56:04+08:00 ] 127.0.0.1 /thinkphp312/page/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.339566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.339807s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005849s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_form` LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 0,5   [ RunTime:0.000306s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001432s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001608s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.395255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.395475s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000895s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000923s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000661s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004036s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001247s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2013-03-29T17:56:13+08:00 ] 127.0.0.1 /thinkphp312/page/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.003180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_form` LIMIT 1   [ RunTime:0.000166s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 0,5   [ RunTime:0.000168s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000579s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008130s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000387s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000492s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000344s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002062s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000586s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000681s ]
+

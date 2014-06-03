@@ -1,0 +1,92 @@
+[ 2013-03-29T09:51:51+08:00 ] 127.0.0.1 /thinkphp312/file/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.016338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019084s ]
+SQL: SHOW COLUMNS FROM `think_photo` [ RunTime:0.055295s ]
+SQL: SELECT * FROM `think_photo` ORDER BY create_time desc LIMIT 1   [ RunTime:0.011950s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.012151s ]
+INFO: [ view_template ] --END-- [ RunTime:0.012359s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.175729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.175956s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.015262s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.006569s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003043s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027676s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002343s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002539s ]
+
+[ 2013-03-29T09:53:14+08:00 ] 127.0.0.1 /thinkphp312/file/index.php/Index/upload/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.011814s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011935s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+NOTIC: [2] md5_file(./Uploads/5154f4096857c.jpg) [<a href='function.md5-file'>function.md5-file</a>]: failed to open stream: No such file or directory C:\wamp\www\thinkphp312\file\App\Lib\ORG\UploadFile.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `think_photo` [ RunTime:0.003097s ]
+SQL: INSERT INTO `think_photo` (`image`,`create_time`) VALUES ('5154f4096857c.jpg',1364521993) [ RunTime:0.053682s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001905s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002099s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034684s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000991s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001048s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000762s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004189s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000819s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2013-03-29T09:53:15+08:00 ] 127.0.0.1 /thinkphp312/file/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM `think_photo` [ RunTime:0.003191s ]
+SQL: SELECT * FROM `think_photo` ORDER BY create_time desc LIMIT 1   [ RunTime:0.000224s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000762s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000865s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006895s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000416s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000433s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000332s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001960s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2013-03-29T17:56:04+08:00 ] 127.0.0.1 /thinkphp312/file/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+SQL: SHOW COLUMNS FROM `think_photo` [ RunTime:0.152899s ]
+SQL: SELECT * FROM `think_photo` ORDER BY create_time desc LIMIT 1   [ RunTime:0.023007s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.031624s ]
+INFO: [ view_template ] --END-- [ RunTime:0.031915s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.128771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128990s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002018s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001147s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000787s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005793s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001381s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001587s ]
+
